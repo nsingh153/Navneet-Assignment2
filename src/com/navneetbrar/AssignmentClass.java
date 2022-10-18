@@ -17,7 +17,12 @@ public class AssignmentClass {
 				System.out.println("Your guess is not between 1 and 100, please try again");
 			}
 			else {
-			if(random==randomNumberGuess) {
+				if(i==4) {
+				System.out.println("You Lose!");
+				System.out.println("The number to guess was: "+random);
+					
+				}
+				else if(random==randomNumberGuess) {
 				System.out.println(" “You win!”");
 				i=5;		
 			}
@@ -30,6 +35,7 @@ public class AssignmentClass {
 				System.out.println("Please pick a higher number");
 				i=i+1;
 			  }
+			
 			}
 		}
 	}
