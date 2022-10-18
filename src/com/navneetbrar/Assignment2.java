@@ -1,10 +1,16 @@
 package com.navneetbrar;
 
+import java.util.Random;
+
 public class Assignment2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Random randomNumber= new Random();
+		int random = randomNumber.nextInt(101);
+		System.out.println(random);
+		AssignmentClass assign= new AssignmentClass();
+		assign.comapre(random);
+		
 	}
 
 }
