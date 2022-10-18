@@ -22,7 +22,7 @@ public class AssignmentClass {
 				System.out.println("The number to guess was: "+random);
 					
 				}
-				else if(random==randomNumberGuess) {
+			else if(random==randomNumberGuess) {
 				System.out.println(" “You win!”");
 				i=5;		
 			}
